@@ -1,0 +1,129 @@
+body {
+  background-color: #fffaf0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+   background-color: #ff7043;
+  color: white;
+  padding: 20px;
+  text-align: right;
+  border-radius: 0 0 20px 20px;
+  
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  text-align: left;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #fff3e0;
+}
+
+
+.dish {
+  text-align: center;
+  padding: 30px;
+  background-color: #ffe0b2;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.dish h1 {
+  color: #e65100;
+  margin-bottom: 15px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 30px;
+}
+
+section div {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+section div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+section img {
+  width: 100%;
+  height: 220px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+section h1 {
+  color: #ff7043;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+section p {
+  text-align: justify;
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #ff7043;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 20px 20px 0 0;
+}
+
+footer .logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+        form  {  
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box
+          }
+
+footer .logo img:hover {
+  transform: scale(1.2);
+}
+form{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 50px;
+}
+
+#feedback form {
+  background: pink;
+  padding: 30px;
+  border: 2px solid black;
+   max-width: 450px;
+  width: 90%;
+  margin: auto;
+}
